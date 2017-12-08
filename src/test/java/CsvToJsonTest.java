@@ -15,8 +15,5 @@ public class CsvToJsonTest {
         String resultJson = JsonFromCsvConverter.CsvToJson(filepath);
         Assert.assertEquals(json,resultJson);
     }
-    @Test(expected = FileNotFoundException.class)
-    public void CsvToJsonExcTest() throws IOException {
-        JsonFromCsvConverter.CsvToJson("filefilefile");
-    }
+
 }
