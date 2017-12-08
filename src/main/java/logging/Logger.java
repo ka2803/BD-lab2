@@ -1,7 +1,7 @@
-package Logging;
+package logging;
 
-import dbUse.MongoConnection;
-import dbUse.MongoDbConnection;
+import dbuse.MongoConnection;
+import dbuse.MongoDbConnection;
 
 import java.sql.Timestamp;
 

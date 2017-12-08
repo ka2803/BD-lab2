@@ -1,8 +1,5 @@
-import Logging.Log;
-import dbUse.MongoConnection;
 import org.junit.Assert;
 import org.junit.Test;
-import util.GsonSerializer;
 import util.JsonFromCsvConverter;
 
 import java.io.FileNotFoundException;

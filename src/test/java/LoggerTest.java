@@ -1,7 +1,6 @@
-import Logging.Log;
-import Logging.Logger;
-import dbUse.MongoConnection;
-import org.junit.Assert;
+import logging.Log;
+import logging.Logger;
+import dbuse.MongoConnection;
 import org.junit.Before;
 import org.junit.Test;
 import util.GsonSerializer;

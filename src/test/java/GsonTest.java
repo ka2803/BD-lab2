@@ -1,4 +1,4 @@
-import Logging.Log;
+import logging.Log;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

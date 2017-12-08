@@ -1,6 +1,5 @@
-import Logging.Log;
-import com.mongodb.MongoException;
-import dbUse.MongoConnection;
+import logging.Log;
+import dbuse.MongoConnection;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -9,7 +8,6 @@ import util.GsonSerializer;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class MongoConnectionTest {
@@ -92,5 +90,5 @@ public class MongoConnectionTest {
         connTestObject.removeAll();
 
     }
-    
+
 }

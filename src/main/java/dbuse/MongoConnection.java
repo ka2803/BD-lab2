@@ -1,8 +1,6 @@
-package dbUse;
+package dbuse;
 
-import Logging.Log;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import logging.Log;
 import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoException;
@@ -10,11 +8,8 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
-import org.bson.codecs.configuration.CodecRegistry;
-import util.GsonSerializer;
 import util.JsonSerializer;
 
-import java.sql.Time;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;

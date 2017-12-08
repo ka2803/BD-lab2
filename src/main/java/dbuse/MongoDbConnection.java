@@ -1,4 +1,4 @@
-package dbUse;
+package dbuse;
 
 import java.util.List;
 
