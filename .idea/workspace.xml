@@ -38,8 +38,8 @@
       <file leaf-file-name="MongoConnectionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MongoConnectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="135" column="120" lean-forward="false" selection-start-line="135" selection-start-column="120" selection-end-line="135" selection-end-column="120" />
+            <state relative-caret-position="334">
+              <caret line="135" column="137" lean-forward="false" selection-start-line="135" selection-start-column="137" selection-end-line="135" selection-end-column="137" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2724#2725#0" expanded="true" />
@@ -804,7 +804,7 @@
       <workItem from="1512223567155" duration="671000" />
       <workItem from="1512420867753" duration="813000" />
       <workItem from="1512763163607" duration="1120000" />
-      <workItem from="1512765220282" duration="9865000" />
+      <workItem from="1512765220282" duration="9939000" />
     </task>
     <servers />
   </component>
@@ -815,11 +815,14 @@
     <history-entry file="GsonTest_SerializeTest - 2017.12.09 at 01h 36m 29s.xml">
       <configuration name="GsonTest.SerializeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MongoConnectionTest - 2017.12.09 at 01h 51m 19s.xml">
+      <configuration name="MongoConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MongoConnectionTest - 2017.12.09 at 01h 52m 20s.xml">
+      <configuration name="MongoConnectionTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="MongoConnectionTest_getIpMapTest - 2017.12.09 at 01h 45m 58s.xml">
       <configuration name="MongoConnectionTest.getIpMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MongoConnectionTest_getUrlByPeriodTest - 2017.12.09 at 01h 34m 16s.xml">
-      <configuration name="MongoConnectionTest.getUrlByPeriodTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MongoConnectionTest_getUrlByPeriodTest - 2017.12.09 at 01h 47m 56s.xml">
       <configuration name="MongoConnectionTest.getUrlByPeriodTest" configurationId="JUnit" />
@@ -836,12 +839,9 @@
     <history-entry file="MongoConnectionTest_removeAllTest - 2017.12.09 at 01h 35m 20s.xml">
       <configuration name="MongoConnectionTest.removeAllTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoConnectionTest_urlByIpTest - 2017.12.09 at 01h 32m 47s.xml">
-      <configuration name="MongoConnectionTest.urlByIpTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32296000" />
+    <option name="totallyTimeSpent" value="32370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -855,7 +855,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -923,7 +923,7 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1380,8 +1380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MongoConnectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="135" column="120" lean-forward="false" selection-start-line="135" selection-start-column="120" selection-end-line="135" selection-end-column="120" />
+        <state relative-caret-position="334">
+          <caret line="135" column="137" lean-forward="false" selection-start-line="135" selection-start-column="137" selection-end-line="135" selection-end-column="137" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2724#2725#0" expanded="true" />
