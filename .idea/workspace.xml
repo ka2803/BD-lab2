@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b780558e-2519-44f7-abe9-e8eea8f9d6c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CsvToJsonTest.java" afterPath="$PROJECT_DIR$/src/test/java/CsvToJsonTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/GsonTest.java" afterPath="$PROJECT_DIR$/src/test/java/GsonTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MongoConnectionTest.java" afterPath="$PROJECT_DIR$/src/test/java/MongoConnectionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,11 +25,10 @@
       <file leaf-file-name="MongoConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="147" column="50" lean-forward="false" selection-start-line="147" selection-start-column="50" selection-end-line="147" selection-end-column="50" />
+            <state relative-caret-position="-2953">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getIpbyURL#0;class#MongoConnection#0" expanded="false" />
                 <element signature="method#getURLbyPeriod#0;class#MongoConnection#0" expanded="false" />
                 <element signature="method#getURLbyIP#0;class#MongoConnection#0" expanded="false" />
               </folding>
@@ -40,10 +39,12 @@
       <file leaf-file-name="MongoConnectionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MongoConnectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+            <state relative-caret-position="453">
+              <caret line="117" column="35" lean-forward="false" selection-start-line="117" selection-start-column="35" selection-end-line="117" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2663#2664#0" expanded="true" />
+                <element signature="e#2703#2704#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +110,8 @@
       <file leaf-file-name="GsonTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="289">
+              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -461,9 +462,9 @@
         <option value="$PROJECT_DIR$/src/test/java/LoggerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Logging/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/dbUse/MongoConnection.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MongoConnectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java" />
         <option value="$PROJECT_DIR$/src/test/java/CsvToJsonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MongoConnectionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/GsonTest.java" />
       </list>
     </option>
@@ -587,66 +588,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.GsonTest.SerializeTest">
-    <configuration name="All in alex_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="alex_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CsvToJsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="alex_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CsvToJsonTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="GsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="alex_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GsonTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="GsonTest.SerializeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="alex_test" />
@@ -667,15 +608,75 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MongoConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MongoConnectionTest.getUrlByPeriodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="alex_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MongoConnectionTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="getUrlByPeriodTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MongoConnectionTest.ipByUrlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="alex_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MongoConnectionTest" />
+      <option name="METHOD_NAME" value="ipByUrlTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MongoConnectionTest.removeAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="alex_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MongoConnectionTest" />
+      <option name="METHOD_NAME" value="removeAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MongoConnectionTest.urlByIpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="alex_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MongoConnectionTest" />
+      <option name="METHOD_NAME" value="urlByIpTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -769,19 +770,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in alex_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MongoConnectionTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CsvToJsonTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GsonTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GsonTest.SerializeTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GsonTest.SerializeTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MongoConnectionTest.ipByUrlTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MongoConnectionTest.urlByIpTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MongoConnectionTest.getUrlByPeriodTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MongoConnectionTest.removeAllTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.GsonTest.SerializeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GsonTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CsvToJsonTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MongoConnectionTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in alex_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MongoConnectionTest.removeAllTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MongoConnectionTest.getUrlByPeriodTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MongoConnectionTest.urlByIpTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MongoConnectionTest.ipByUrlTest" />
       </list>
     </recent_temporary>
   </component>
@@ -804,17 +805,11 @@
       <workItem from="1512223567155" duration="671000" />
       <workItem from="1512420867753" duration="813000" />
       <workItem from="1512763163607" duration="1120000" />
-      <workItem from="1512765220282" duration="8183000" />
+      <workItem from="1512765220282" duration="8991000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_alex_test - 2017.12.09 at 00h 05m 14s.xml">
-      <configuration name="All in alex_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_alex_test - 2017.12.09 at 00h 55m 11s.xml">
-      <configuration name="All in alex_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_alex_test - 2017.12.09 at 00h 55m 35s.xml">
       <configuration name="All in alex_test" configurationId="JUnit" />
     </history-entry>
@@ -827,21 +822,27 @@
     <history-entry file="GsonTest_SerializeTest - 2017.12.09 at 01h 21m 23s.xml">
       <configuration name="GsonTest.SerializeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoConnectionTest - 2017.12.09 at 00h 05m 55s.xml">
-      <configuration name="MongoConnectionTest" configurationId="JUnit" />
+    <history-entry file="GsonTest_SerializeTest - 2017.12.09 at 01h 36m 29s.xml">
+      <configuration name="GsonTest.SerializeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MongoConnectionTest - 2017.12.09 at 00h 57m 10s.xml">
       <configuration name="MongoConnectionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoConnectionTest_updateTest - 2017.12.09 at 00h 03m 28s.xml">
-      <configuration name="MongoConnectionTest.updateTest" configurationId="JUnit" />
+    <history-entry file="MongoConnectionTest_getUrlByPeriodTest - 2017.12.09 at 01h 34m 16s.xml">
+      <configuration name="MongoConnectionTest.getUrlByPeriodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoConnectionTest_updateTest - 2017.12.09 at 00h 04m 44s.xml">
-      <configuration name="MongoConnectionTest.updateTest" configurationId="JUnit" />
+    <history-entry file="MongoConnectionTest_removeAllTest - 2017.12.09 at 01h 35m 20s.xml">
+      <configuration name="MongoConnectionTest.removeAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MongoConnectionTest_urlByIpTest - 2017.12.09 at 01h 31m 31s.xml">
+      <configuration name="MongoConnectionTest.urlByIpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MongoConnectionTest_urlByIpTest - 2017.12.09 at 01h 32m 47s.xml">
+      <configuration name="MongoConnectionTest.urlByIpTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30614000" />
+    <option name="totallyTimeSpent" value="31422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -855,7 +856,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -934,7 +935,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getIpbyURL#0;class#MongoConnection#0" expanded="false" />
             <element signature="method#getURLbyPeriod#0;class#MongoConnection#0" expanded="false" />
             <element signature="method#getURLbyIP#0;class#MongoConnection#0" expanded="false" />
           </folding>
@@ -986,7 +986,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getIpbyURL#0;class#MongoConnection#0" expanded="false" />
             <element signature="method#getURLbyPeriod#0;class#MongoConnection#0" expanded="false" />
             <element signature="method#getURLbyIP#0;class#MongoConnection#0" expanded="false" />
           </folding>
@@ -1342,34 +1341,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MongoConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="147" column="50" lean-forward="false" selection-start-line="147" selection-start-column="50" selection-end-line="147" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getIpbyURL#0;class#MongoConnection#0" expanded="false" />
-            <element signature="method#getURLbyPeriod#0;class#MongoConnection#0" expanded="false" />
-            <element signature="method#getURLbyIP#0;class#MongoConnection#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1383,10 +1359,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MongoConnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="117" column="35" lean-forward="false" selection-start-line="117" selection-start-column="35" selection-end-line="117" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2703#2704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2953">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getURLbyPeriod#0;class#MongoConnection#0" expanded="false" />
+            <element signature="method#getURLbyIP#0;class#MongoConnection#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="289">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding />
         </state>
       </provider>

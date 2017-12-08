@@ -85,6 +85,40 @@ public class MongoConnectionTest {
         List<Log> logsAfter = connTestObject.readAll();
         Assert.assertEquals(0,logsAfter.size());
     }
+    @Test
+    public void connectTest(){
+        connTestObject.connect();
+    }
+    @Test
+    public void ipByUrlTest(){
+        Log log = logsForTest.get(0);
+        connTestObject.create(log);
+        Assert.assertEquals(true,connTestObject.getIpbyURL(log.getURL()).get(0).contains(log.getIP()));
+    }
+    @Test
+    public void urlByIpTest(){
+        Log log = logsForTest.get(0);
+        connTestObject.create(log);
+        Assert.assertEquals(true,connTestObject.getURLbyIP(log.getIP()).get(0).contains(log.getURL()));
+    }
+
+    @Test
+    public void getUrlByPeriodTest(){
+        Log log = logsForTest.get(0);
+        connTestObject.create(log);
+        Assert.assertEquals(true,connTestObject.getURLbyPeriod(new Timestamp(100),new Timestamp(1000000000)).get(0).contains(log.getURL()));
+    }
+
+    @Test
+    public void removeAllTest(){
+        for (Log log :
+                logsForTest) {
+            connTestObject.create(log);
+        }
+        connTestObject.removeAll();
+        List<Log> logsAfter = connTestObject.readAll();
+        Assert.assertEquals(0,logsAfter.size());
+    }
     @After
     public void After(){
         connTestObject.removeAll();
