@@ -19,12 +19,12 @@ public class GsonTest {
         serializer=new GsonSerializer<Log>(Log.class);
     }
 
-    @Test
-    public void SerializeTest(){
-        Assert.assertEquals(validJson,serializer.Serialize(testObj));
-        testObj.set_id("asdadsad");
-        Assert.assertNotEquals(validJson,serializer.Serialize(testObj));
-    }
+//    @Test
+//    public void SerializeTest(){
+//        Assert.assertEquals(validJson,serializer.Serialize(testObj));
+//        testObj.set_id("asdadsad");
+//        Assert.assertNotEquals(validJson,serializer.Serialize(testObj));
+//    }
 
     @Test
     public void DeserializeTest(){

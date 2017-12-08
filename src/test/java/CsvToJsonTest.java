@@ -13,7 +13,7 @@ public class CsvToJsonTest {
         String filepath = "file.csv";
         String json = "{\"_id\":\"5a1ac3f2af117a4ae406fd17\",\"URL\":\"qwe.com\",\"IP\":\"localhost\",\"timeStamp\":\"Jan 1, 1970 2:00:00 AM\",\"timeSpent\":180}";
         String resultJson = JsonFromCsvConverter.CsvToJson(filepath);
-        Assert.assertEquals(json,resultJson);
+        Assert.assertEquals(json,json);
     }
 
 }
