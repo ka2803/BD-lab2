@@ -133,7 +133,7 @@ public class MongoConnectionTest {
     public void getUrlCountByPeriodTest() {
         Log log = logsForTest.get(0);
         connTestObject.create(log);
-        Assert.assertEquals(true,connTestObject.getMapReducedUrlCountByPeriod(new Timestamp(10),new Timestamp(10000000)).get(0).contains(String.valueOf(log.getURL())));
+        Assert.assertEquals(true,connTestObject.getMapReducedUrlCountByPeriod(new Timestamp(1000000),new Timestamp(100000000)).get(0).contains(String.valueOf(log.getURL())));
     }
     @Test
     public void getIpMapTest(){
