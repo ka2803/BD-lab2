@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b780558e-2519-44f7-abe9-e8eea8f9d6c2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Logging/Log.java" afterPath="$PROJECT_DIR$/src/main/java/logging/Log.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Logging/Logger.java" afterPath="$PROJECT_DIR$/src/main/java/logging/Logger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dbUse/MongoConnection.java" afterPath="$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dbUse/MongoDbConnection.java" afterPath="$PROJECT_DIR$/src/main/java/dbuse/MongoDbConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/JsonFromCsvConverter.java" afterPath="$PROJECT_DIR$/src/main/java/util/JsonFromCsvConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CsvToJsonTest.java" afterPath="$PROJECT_DIR$/src/test/java/CsvToJsonTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/GsonTest.java" afterPath="$PROJECT_DIR$/src/test/java/GsonTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LogTest.java" afterPath="$PROJECT_DIR$/src/test/java/LogTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LoggerTest.java" afterPath="$PROJECT_DIR$/src/test/java/LoggerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MongoConnectionTest.java" afterPath="$PROJECT_DIR$/src/test/java/MongoConnectionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java" afterPath="$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,58 +21,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MongoConnection.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MongoConnection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="124" column="44" lean-forward="false" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+            <state relative-caret-position="308">
+              <caret line="147" column="50" lean-forward="false" selection-start-line="147" selection-start-column="50" selection-end-line="147" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getIpbyURL#0;class#MongoConnection#0" expanded="false" />
                 <element signature="method#getURLbyPeriod#0;class#MongoConnection#0" expanded="false" />
+                <element signature="method#getURLbyIP#0;class#MongoConnection#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoCollectionImpl.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.5.0/6d8dc279f4dc1f4574e9659f8cbc9abc43db8aea/mongodb-driver-3.5.0-sources.jar!/com/mongodb/MongoCollectionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="343" column="0" lean-forward="false" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
-              <folding>
-                <element signature="e#16036#16037#0" expanded="true" />
-                <element signature="e#27731#27732#0" expanded="true" />
-                <element signature="e#27786#27787#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MongoConnectionTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MongoConnectionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MongoConnectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="279">
+              <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mongo.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.5.0/6d8dc279f4dc1f4574e9659f8cbc9abc43db8aea/mongodb-driver-3.5.0-sources.jar!/com/mongodb/Mongo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="527" column="0" lean-forward="false" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
-              <folding>
-                <element signature="e#31581#31582#0" expanded="true" />
-                <element signature="e#31611#31612#0" expanded="true" />
-                <element signature="e#31975#31976#0" expanded="true" />
-                <element signature="e#32028#32029#0" expanded="true" />
-                <element signature="e#32899#32900#0" expanded="true" />
-                <element signature="e#32967#32968#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -471,6 +431,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Logging/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/dbUse/MongoConnection.java" />
         <option value="$PROJECT_DIR$/src/test/java/MongoConnectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java" />
       </list>
     </option>
   </component>
@@ -810,7 +771,7 @@
       <workItem from="1512223567155" duration="671000" />
       <workItem from="1512420867753" duration="813000" />
       <workItem from="1512763163607" duration="1120000" />
-      <workItem from="1512765220282" duration="6032000" />
+      <workItem from="1512765220282" duration="6788000" />
     </task>
     <servers />
   </component>
@@ -818,20 +779,20 @@
     <history-entry file="All_in_alex_test - 2017.12.09 at 00h 05m 14s.xml">
       <configuration name="All in alex_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_alex_test - 2017.12.09 at 00h 55m 11s.xml">
+      <configuration name="All in alex_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_alex_test - 2017.12.09 at 00h 55m 35s.xml">
+      <configuration name="All in alex_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="MongoConnectionTest - 2017.12.09 at 00h 05m 55s.xml">
+      <configuration name="MongoConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MongoConnectionTest - 2017.12.09 at 00h 57m 10s.xml">
       <configuration name="MongoConnectionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MongoConnectionTest_insertTest - 2017.12.09 at 00h 02m 12s.xml">
       <configuration name="MongoConnectionTest.insertTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MongoConnectionTest_updateTest - 2017.12.08 at 23h 59m 05s.xml">
-      <configuration name="MongoConnectionTest.updateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MongoConnectionTest_updateTest - 2017.12.09 at 00h 00m 14s.xml">
-      <configuration name="MongoConnectionTest.updateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MongoConnectionTest_updateTest - 2017.12.09 at 00h 00m 53s.xml">
-      <configuration name="MongoConnectionTest.updateTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MongoConnectionTest_updateTest - 2017.12.09 at 00h 01m 41s.xml">
       <configuration name="MongoConnectionTest.updateTest" configurationId="JUnit" />
@@ -847,7 +808,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28463000" />
+    <option name="totallyTimeSpent" value="29219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -860,12 +821,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -928,7 +889,7 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -941,6 +902,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#getIpbyURL#0;class#MongoConnection#0" expanded="false" />
             <element signature="method#getURLbyPeriod#0;class#MongoConnection#0" expanded="false" />
+            <element signature="method#getURLbyIP#0;class#MongoConnection#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -992,6 +954,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#getIpbyURL#0;class#MongoConnection#0" expanded="false" />
             <element signature="method#getURLbyPeriod#0;class#MongoConnection#0" expanded="false" />
+            <element signature="method#getURLbyIP#0;class#MongoConnection#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1373,24 +1336,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MongoConnectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="124" column="44" lean-forward="false" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+        <state relative-caret-position="279">
+          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getIpbyURL#0;class#MongoConnection#0" expanded="false" />
-            <element signature="method#getURLbyPeriod#0;class#MongoConnection#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MongoConnectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dbuse/MongoConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="308">
+          <caret line="147" column="50" lean-forward="false" selection-start-line="147" selection-start-column="50" selection-end-line="147" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#getIpbyURL#0;class#MongoConnection#0" expanded="false" />
+            <element signature="method#getURLbyPeriod#0;class#MongoConnection#0" expanded="false" />
+            <element signature="method#getURLbyIP#0;class#MongoConnection#0" expanded="false" />
           </folding>
         </state>
       </provider>

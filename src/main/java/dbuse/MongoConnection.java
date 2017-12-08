@@ -33,7 +33,7 @@ public class MongoConnection implements MongoDbConnection<Log> {
 
 
     public void connect(){
-        mongo = new MongoClient(url);
+        mongo = new MongoClient(url,27017);
         db = mongo.getDatabase("LogsDB");
     }
 
@@ -145,7 +145,7 @@ public class MongoConnection implements MongoDbConnection<Log> {
         String old = cursor.next().toJson();
         Document oldDoc = Document.parse(old);
         Document doc = new Document();
-            doc.append("_id",updObj.get_id());
+            doc.append("_id",oldDoc.getString("_id"));
             doc.append("URL",updObj.getURL());
             doc.append("IP",updObj.getIP());
             doc.append("timeStamp",updObj.getTimeStamp());
