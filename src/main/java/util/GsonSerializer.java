@@ -3,7 +3,7 @@ package util;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-public class GsonSerializer<T> {
+public class GsonSerializer<T> implements JsonSerializer<T> {
     private Class<T> className;
     public GsonSerializer(Class<T> cls){
         className=cls;
